@@ -1,0 +1,35 @@
+.container {
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+  padding: 20px;
+}
+.title {
+  font-weight: 200;
+  color: var(-textSoft);
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 10px 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.status {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+.done {
+  background-color: green;
+}
