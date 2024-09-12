@@ -23,9 +23,9 @@ const Pagination = ({ product }) => {
 
   return (
     <div className={style.container}>
-      <button className={style.button} onClick={(e) => prev} disabled>
-        Previous
-      </button>
+      {/* <button className={style.button} onClick={(e) => prev} disabled> */}
+      Previous
+      {/* </button> */}
       <button className={style.button}>Next</button>
     </div>
   );
